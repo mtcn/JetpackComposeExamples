@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_graph"
+    app:startDestination="@id/mainFragment">
+
+    <fragment
+        android:id="@+id/eventMainFragment"
+        android:name="com.apps.jetpackcomposeexamples.example1.EventMainFragment"
+        android:label="EventMainFragment">
+        <action
+            android:id="@+id/action_eventMainFragment_to_eventDetailFragment"
+            app:destination="@id/eventDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/eventDetailFragment"
+        android:name="com.apps.jetpackcomposeexamples.example1.EventDetailFragment"
+        android:label="EventDetailFragment" />
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.apps.jetpackcomposeexamples.main.MainFragment"
+        android:label="MainFragment">
+        <action
+            android:id="@+id/action_mainFragment_to_eventMainFragment"
+            app:destination="@id/eventMainFragment" />
+    </fragment>
+</navigation>
