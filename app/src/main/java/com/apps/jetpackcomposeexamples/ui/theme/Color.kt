@@ -9,3 +9,6 @@ val Teal200 = Color(0xFF03DAC5)
 val White = Color(0xFFFFFFFF)
 val Black = Color(0xFF000000)
 val LightGrey = Color(0xFFD3D3D3)
+
+val AlmostWhite = Color(0xFFFAFAFA)
+val EventPrimary = Color(0xFF204AFB)

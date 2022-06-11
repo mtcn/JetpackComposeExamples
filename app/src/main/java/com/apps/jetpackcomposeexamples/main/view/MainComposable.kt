@@ -21,13 +21,20 @@ import androidx.compose.ui.unit.TextUnitType
 import androidx.compose.ui.unit.dp
 import com.apps.jetpackcomposeexamples.main.model.MainModel
 import com.apps.jetpackcomposeexamples.main.model.Showcase
+import com.apps.jetpackcomposeexamples.ui.theme.EventPrimary
+import com.apps.jetpackcomposeexamples.ui.theme.LightGrey
 import com.apps.jetpackcomposeexamples.ui.theme.White
+import com.google.accompanist.systemuicontroller.rememberSystemUiController
 
 
 @Composable
 fun ShowcaseList(list: List<MainModel>, onClick: (s: Showcase) -> Unit) {
-    Column(
+    rememberSystemUiController().apply {
+        setSystemBarsColor(LightGrey, darkIcons = true)
+        setNavigationBarColor(Color.LightGray, true)
+    }
 
+    Column(
         modifier = Modifier
             .verticalScroll(rememberScrollState())
             .background(color = Color.LightGray)
