@@ -15,7 +15,11 @@
     <fragment
         android:id="@+id/eventDetailFragment"
         android:name="com.apps.jetpackcomposeexamples.example1.EventDetailFragment"
-        android:label="EventDetailFragment" />
+        android:label="EventDetailFragment" >
+        <argument
+            android:name="eventArg"
+            app:argType="com.apps.jetpackcomposeexamples.example1.model.EventModel" />
+    </fragment>
     <fragment
         android:id="@+id/mainFragment"
         android:name="com.apps.jetpackcomposeexamples.main.MainFragment"

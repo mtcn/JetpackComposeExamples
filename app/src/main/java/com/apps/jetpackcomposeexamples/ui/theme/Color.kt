@@ -12,3 +12,8 @@ val LightGrey = Color(0xFFD3D3D3)
 
 val AlmostWhite = Color(0xFFFAFAFA)
 val EventPrimary = Color(0xFF204AFB)
+val PaleMauve = Color(0xFFFEEAF8)
+val Fuchsia = Color(0xFFFB20BF)
+
+
+
