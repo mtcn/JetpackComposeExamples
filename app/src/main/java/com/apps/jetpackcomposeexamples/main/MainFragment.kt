@@ -29,7 +29,9 @@ class MainFragment : Fragment() {
                             Showcase.EVENT_APP -> {
                                 findNavController().navigate(R.id.action_mainFragment_to_eventMainFragment)
                             }
-                            Showcase.RENTAL_CAR_APP -> {}
+                            Showcase.RENTAL_CAR_APP -> {
+                                findNavController().navigate(R.id.action_mainFragment_to_rentalCarMainFragment)
+                            }
                             Showcase.TRAVEL_APP -> {}
                             Showcase.DEFAULT -> {}
                         }

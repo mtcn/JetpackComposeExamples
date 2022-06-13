@@ -27,5 +27,20 @@
         <action
             android:id="@+id/action_mainFragment_to_eventMainFragment"
             app:destination="@id/eventMainFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_rentalCarMainFragment"
+            app:destination="@id/rentalCarMainFragment" />
     </fragment>
+    <fragment
+        android:id="@+id/rentalCarMainFragment"
+        android:name="com.apps.jetpackcomposeexamples.example2.RentalCarMainFragment"
+        android:label="RentalCarMainFragment" >
+        <action
+            android:id="@+id/action_rentalCarMainFragment_to_rentalCarDetailFragment"
+            app:destination="@id/rentalCarDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/rentalCarDetailFragment"
+        android:name="com.apps.jetpackcomposeexamples.example2.RentalCarDetailFragment"
+        android:label="RentalCarDetailFragment" />
 </navigation>
