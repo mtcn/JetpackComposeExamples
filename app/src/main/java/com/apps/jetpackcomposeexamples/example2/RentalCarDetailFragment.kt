@@ -20,8 +20,8 @@ class RentalCarDetailFragment : Fragment() {
     ): View {
         return ComposeView(requireContext()).apply {
             setContent {
-                viewModel.rentalCarState.value.let { car ->
-                    RentalCarDetailScreen()
+                viewModel.rentalCarState.value?.let { car ->
+                    RentalCarDetailScreen(car)
                 }
             }
         }
