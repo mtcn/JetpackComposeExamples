@@ -13,7 +13,7 @@ Name  | Demo
   - [JetpackCompose Offical docs](https://developer.android.com/jetpack/compose)
   
 ## How to contribute?
-* Check out contribution guidelines 👉[CONTRIBUTING.md]()
+* Check out contribution guidelines 👉[CONTRIBUTING.md](https://github.com/mtcn/JetpackComposeExamples/blob/master/CONTRIBUTING.md)
 
 
 ## License
