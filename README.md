@@ -7,7 +7,8 @@ Demos
 ======================
 Name  | Demo
 --- | ---
-[Event App UI Demo](https://github.com/mtcn/JetpackComposeExamples/tree/master/app/src/main/java/com/apps/jetpackcomposeexamples/example1) with<br>Jetpack Compose [LazyColumn](https://developer.android.com/jetpack/compose/lists#lazylistscope)<br/>[ConstraintLayout](https://developer.android.com/jetpack/compose/layouts/constraintlayout) usage | <img src="/demo/jetpackcomposeexamples_example1.gif" width="60%"> |
+[Event App UI Demo](https://github.com/mtcn/JetpackComposeExamples/tree/master/app/src/main/java/com/apps/jetpackcomposeexamples/example1) with<br>Jetpack Compose [LazyColumn](https://developer.android.com/jetpack/compose/lists#lazylistscope)<br/>[ConstraintLayout](https://developer.android.com/jetpack/compose/layouts/constraintlayout) usage | <img src="/demo/jetpackcomposeexamples_example1.gif" width="40%"> |
+[Rental Car App UI Demo](https://github.com/mtcn/JetpackComposeExamples/tree/master/app/src/main/java/com/apps/jetpackcomposeexamples/example2) with<br>Jetpack Compose [Basic Animation](https://developer.android.com/jetpack/compose/animation) and<br/>[LazyVerticalGrid](https://developer.android.com/jetpack/compose/lists#lazy-grids) usage | <img src="/demo/jetpackcomposeexamples_example2.gif" width="40%"> |
 
 ## Resources
   - [JetpackCompose Offical docs](https://developer.android.com/jetpack/compose)
