@@ -1,5 +1,5 @@
 
-## JetpackComposeExamples
+## Jetpack Compose Examples
 
 This is a sample app demonstrating UI design using Jetpack Compose. It is just an example app to show how to use Jetpack Compose with complex UI.
 
